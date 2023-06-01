@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}   
+
+/*COLOR DEL FONDO*/
+body{
+    background-color:#807675;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*NAVEGADOR*/
+.navbar{
+    color: white;
+    padding: 100%;
+    margin: 100%;
+    background-color: #130e0b;
+}    
+.navbar {
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}    
+.logo {
+    margin-left: 20px;
+    width: 130px;
+    cursor: pointer;
+}    
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative; 
+}    
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}    
+.navbar ul li::before {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.2s ease-out;
+}    
+.navbar ul li:hover::before {
+    width: 100%;
+}
+/*animacion del logo*/
+.logo:hover{
+    transform: scale(1.15);
+}    
+/*FIN NAVEGADOR*/
+
+
+/**/
+.formulario {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*Color de boton enviar*/
+.env {
+    color: white;
+    background-color: #655647;
+}
+
+.env:hover {
+    transition: 0.4s;
+    color: white;
+    background: #000000;
+}
+/*Fin de color de boton*/
+
+
+
+
+
+/*SECCION DEL FOOTER*/
+.footer{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}    
+
+.links h4{
+    
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.links ul li a{
+    
+    color: #070707;
+    font-size: 16px;
+    margin-bottom:  5px;
+    display: inline-block;
+}
+.moverse{
+  text-align: center;
+    padding-left: 5px;
+}
+/*LOGO DEL FOOTER*/
+
+
+.cajalogo {
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-top: 2vw;
+}
+.logo-2 {
+
+    text-align: center;
+    margin-right: 25px;
+    height: 70px;
+    width: 210px;
+}
+.cajita {
+    margin-left: 10px;
+
+
+
+}
+/*FIN SECCION DEL FOOTER*/
+
+
+
+
+/*Imagenes y animaciones de Redes Sociales*/
+.socials{
+    display: flex;
+}
+
+.footer {
+    background-color: #FFFF;
+}
+
+.social{
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+
+.social img {
+    width: 20px;
+}
+.social:hover{
+    background-color: #7d4b42;
+}
+
+.social img{
+    margin: 8px 0 0 10px;
+}
+/*Fin Imagenes y animaciones de Redes Sociales*/
